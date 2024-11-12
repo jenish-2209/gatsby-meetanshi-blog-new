@@ -1,0 +1,121 @@
+/* src/components/Layout.css */
+.fade-container {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+.home-hero-section{
+  background: linear-gradient(140deg, #f8f7fd 0, #f7e9e9 55%, #ffaf5a 100%);
+  padding: 101px 0 101px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.home-hero-section h1{
+  margin-bottom: 15px;
+}
+.home-hero-section p{
+  font-size: 20px;
+}
+.navbar-custom{
+  padding: 20px 0;
+  box-shadow: 0 4px 4px 0 #5454541A;
+}
+.pagination{
+  justify-content: center;
+}
+.pagination .page-number{
+  padding: 0px 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.pagination .page-number.active{
+ font-weight: 600;
+}
+
+.category-list-hero .btn-category-link{
+  padding: 12px;
+  border: 1px solid #d2d5d9;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #333;
+}
+.category-list-hero .btn.active, .category-list-hero .btn:hover{
+  border: 1px solid #333;
+  background-color: #333;
+  color: #fff;
+}
+.sticky-posts-homepage h2 a,.blog-list-main-container h3 a {
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+.sticky-posts-homepage h2 a:hover,.blog-list-main-container h3 a:hover{
+  color: #f47526;
+}
+.blog-list-main-container .blog-list-content-wrapper{
+  padding: 10px 20px;
+    margin-bottom: 60px;
+}
+.blog-list-main-container .blog-list-content-wrapper:nth-child(odd){
+  border-right: 1px solid #d2d5d9;
+}
+.blog-pagination-main-container .page-number{
+  width: 38px;
+    height: 38px;
+    border-radius: 6px;
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+    line-height: 38px;
+    border: 1px solid #d2d5d9;
+    text-decoration: none;
+}
+.blog-pagination-main-container .page-number.active{
+  color: #fff;
+  background-color: #f47526;
+  border: 1px solid #f47526;
+}
+.blog-pagination-main-container .page-ellipsis{
+  font-size: 36px;
+  line-height: 18px;
+  color: #d9d9d9;
+  margin-right: 14px;
+  display: block
+}
+.blog-pagination-main-container .page-number:not(:last-child){
+  margin-right: 14px;
+}
+.listing-inner-author-image{
+  width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.listing-blog-info span{
+  font-size: 16px;
+}
+.listing-blog-info span a{
+  color: #333;
+  text-decoration: none;
+}
+.listing-blog-info span a:hover{
+  color: #f45e00;
+}
